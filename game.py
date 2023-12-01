@@ -17,7 +17,7 @@ def run(agents: list[BaseAgent]) -> int | None:
         move = acting_agent.coloca(board)
         add_to_board(board, move, acting_agent.identifier)
 
-        if is_winning(board):
+        if is_winning(board, move):
             print(f"El agento {acting_agent.identifier} ganó, que bueno.")
             return acting_agent.identifier
 

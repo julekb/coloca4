@@ -15,7 +15,7 @@ def add_to_board(board: Board, row: int, agent_id: int) -> Board:
     pass
 
 
-def is_winning(board: Board) -> bool:
+def is_winning(board: Board, move: int) -> bool:
     pass
 
 
